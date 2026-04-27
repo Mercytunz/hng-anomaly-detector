@@ -1,0 +1,33 @@
+# Slack Configuration
+slack:
+  webhook_url: "YOUR_SLACK_WEBHOOK_URL_HERE"
+# Sliding Window Settings
+windows:
+  per_ip_seconds: 60
+  global_seconds: 60
+# Baseline Settings
+baseline:
+  window_minutes: 30
+  recalculate_every: 60
+  min_requests: 30
+  floor_mean: 1.0
+  floor_stddev: 0.5
+# Detection Thresholds
+detection:
+  zscore_threshold: 3.0
+  rate_multiplier: 5.0
+  error_rate_multiplier: 3.0
+# Ban Backoff Schedule (in minutes)
+backoff:
+  - 10
+  - 30
+  - 120
+  - -1
+# Dashboard Settings
+dashboard:
+  port: 8080
+  refresh_seconds: 3
+# Log Settings
+log:
+  nginx_access_log: "/var/log/nginx/hng-access.log"
+  audit_log: "/var/log/detector/audit.log"
