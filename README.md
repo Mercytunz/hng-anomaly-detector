@@ -73,7 +73,7 @@ This means eviction is instant regardless of how many requests are in the window
 
 ---
 
-## 📊 How the Baseline Works
+## How the Baseline Works
 
 The baseline answers: **"What does normal traffic look like right now?"**
 
@@ -295,6 +295,6 @@ docker exec detector iptables -L -n
 
 ## Blog Post
 
-[Read the beginner-friendly blog post here](YOUR_BLOG_POST_URL)
+[Read the beginner-friendly blog post here](https://mercytunz.hashnode.dev/how-i-built-a-real-time-ddos-detection-engine-from-scratch)
 
-> Replace `YOUR_BLOG_POST_URL` with your actual blog post link after publishing.
+
