@@ -9,7 +9,7 @@ A production-grade, real-time DDoS and anomaly detection daemon built for HNG's 
 | | |
 |---|---|
 | **Server IP** | `54.146.254.224` |
-| **Dashboard** | http://hng-dashboard.mooo.com |
+| **Dashboard** | https://hng-dashboard.mooo.com |
 | **Nextcloud** | http://54.146.254.224 (IP only) |
 | **GitHub** | https://github.com/Mercytunz/hng-anomaly-detector |
 
